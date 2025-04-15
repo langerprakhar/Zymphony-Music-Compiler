@@ -79,4 +79,4 @@ def convert_to_musicxml(input_midi_path, output_file_path):
         print(f"[!] MuseScore PDF export failed: {e}")
 
 if __name__ == "__main__":
-    convert_to_musicxml("Never-Gonna-Give-You-Up-2.mid", "output_musicxml.xml")
+    convert_to_musicxml("test.mid", "output_musicxml.xml")

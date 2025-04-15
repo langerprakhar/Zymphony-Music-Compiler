@@ -1,5 +1,4 @@
 import pretty_midi
-
 def parse_midi(file_path):
     """
     Parses a MIDI file and extracts notes, instruments, and timing information.
@@ -33,7 +32,7 @@ def parse_midi(file_path):
 
 # Example usage
 if __name__ == "__main__":
-    midi_file = "Never-Gonna-Give-You-Up-2.mid"  # Place a MIDI file in your project folder
+    midi_file = "test.mid"  # Place a MIDI file in your project folder
     result = parse_midi(midi_file)
 
     if result:
